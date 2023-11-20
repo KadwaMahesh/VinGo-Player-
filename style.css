@@ -1,0 +1,361 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 99%;
+    background-color: rgb(31, 7, 138);
+
+}
+/*******************circuler-image*******************************/
+.circle-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 75%;
+}
+.circle-photo-1{
+    width: 5rem;
+    height: 7rem;
+    border-radius: 75%;
+
+}
+.circle-photo-2{
+    width: 8rem;
+    height: 5rem;
+    border-radius: 75%;
+    margin: 5px;
+
+}
+.circle-photo-3{
+    width: 9rem;
+    height: 7rem;
+    margin-left: 12px;
+
+}
+.circle-photo-4{
+    width: 32px;
+    height: 35px;
+
+}
+/* heart icon -red color */
+#shining_image:hover{
+    
+    color: rgb(214, 24, 24);
+}
+/************************ Navigation-Bar ************************/
+
+.navigation-bar-container{
+    position: fixed;
+    background-color:  rgb(4 1 50 / 66%);
+    display: flex;
+    justify-content: space-between;
+    height: 57px;
+    width: 100vw;
+}
+.navigation-bar-container-left{
+    display: flex;
+    margin-top: -13px;
+}
+.navigation-bar-container-list-left{
+    display: flex;
+    list-style: none;
+}
+.navigation-bar-container-right{
+    display: flex;
+    margin-right: 154px;
+}
+
+.navigation-bar-container-list-right{
+    display: flex;
+    list-style: none;
+}
+.navigation-bar-container-list-right a{
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: wheat;
+}
+.navigation-bar-container-list-right a:hover{
+    margin: 20px;
+    color: rgb(179, 189, 245);
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+/*response-section of the NAVIGATION-BAR*/
+@media (max-width:600px)
+{
+    .navigation-bar-container{
+        display: block;
+        position: static;
+        height: auto;
+        width: 100vw;
+    }
+    .navigation-bar-container-right{
+       
+        margin-right: 154px;
+    }
+    
+    .navigation-bar-container-list-right{
+       display: inline-block;
+        list-style: none;
+    }
+    .navigation-bar-container-list-right a{
+        margin: 20px;
+    }
+    .navigation-bar-container-list-right a:hover{
+        margin: 20px;
+        color: rgb(179, 189, 245);
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+    }
+
+}
+/************************   container-body***********************/
+/*hovering class for eaching the another page*/
+.additional-hovering{
+    color: aliceblue;
+     font-size: 20px; font-family: 'Lato', sans-serif;
+     text-decoration: none;
+}
+.additional-hovering:hover{
+    color: rgb(63, 136, 201);
+    font-size: 20px; font-family: 'Lato', sans-serif;
+    text-decoration: none;
+
+}
+
+/************************  container-middle *********************/
+.container-middle{
+    margin-left: 6rem;
+    width: 65%;
+    
+}
+
+
+/************************ Carousel ******************************/
+.container-carousel{
+
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-carousel-item-1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 30%;
+    margin: 0px;
+    margin:5px;
+    height: 280px;
+
+
+}
+.container-carousel-item-2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 30%;
+    margin: 0px;
+    height: 280px;
+    margin:5px;
+    background-image: url(image/car-img-2.jfif);
+}
+.container-carousel-item-3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 30%;
+    margin: 0px;
+    height: 280px;
+    margin:5px;
+    background-image: url(image/car-img-3.jfif);
+}
+.container-carousel-item-1:hover
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 35%;
+    margin: 0px;
+    height: 290px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+
+}
+.container-carousel-item-2:hover
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 35%;
+    margin: 0px;
+    height: 290px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.container-carousel-item-3:hover
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 35%;
+    margin: 0px;
+    height: 290px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+
+/*************************Latest-Releas ************************/
+.Latest-Releas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content:space-around;
+    padding-top: 20px;
+
+}
+.Latest-Release-item{
+   display: flex;
+   flex-wrap: wrap;
+    /* height: 50%; */
+    width: 40%;
+
+}
+
+/*************************Popular-Artists ************************/
+.Popular-Artists{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Popular-Artists figure{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+/************************* stations *****************************/
+.stations{
+    background-color: rgb(16, 4, 68);
+    /* height: 200px; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+.station-image{
+    height: 6rem;
+    width: 8rem;
+    margin-right: 15px;
+}
+/************************ categary-song **************************/
+.categary-song{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.categary-song-party{
+    width: 25%;
+    height: 100px;
+    background-image: url(image/party-img.jfif);
+}
+.categary-song-electronic{
+    width: 25%;
+    height: 100px;
+    background-image: url(image/electronic-img.jfif);
+}
+.categary-song-road{
+    width: 25%;
+    height: 100px;
+    background-image: url(image/raodtrip-img.jfif);
+}
+/********************* Latest-English-Song ************************/
+.Latest-English-Song{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+/********************* Latest-Hindi-Song ************************/
+.Latest-Hindi-Song{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+/************************ container-aside ***************************/
+
+aside{
+
+    position: absolute;
+    width: 25%;
+    height: 92%;
+    right: 0rem;
+    bottom: -5.3rem;
+}
+.aside-div{
+    display: flex;
+}
+#queue-fun{
+    margin-left: 14rem;
+    margin-top: 1rem;
+}
+
+
+
+@media (max-width:550px)
+{
+    .container-carousel{
+        display: block;
+        height: auto;
+    }
+    .categary-song{
+        display: block;
+    }
+    .categary-song-party{
+        width: 250px;
+    }
+    .categary-song-electronic{
+        width: 250px;
+    }
+    .categary-song-road{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 1035px){
+    #container-aside-id{
+        margin-left: 6rem;
+        position: static;
+    }
+    #queue-fun{
+        margin-left: 6rem;
+        margin-top: 1rem;
+
+    }
+    
+}
+@media screen and (max-width: 700px) {
+    
+    #Latest{
+        display: block;
+        padding-top: 20px;
+        background-color: aquamarine;
+    }
+    
+
+  }
+  
+ /**************footer************/
+ footer{
+     width: 100vw;
+     text-align: center;
+     margin-top: 30px;
+     color: aliceblue;
+     font-size: 20px; font-family: 'Lato', sans-serif;
+     background-color: rgb(4 1 50 / 66%);
+    
+      
+ }
